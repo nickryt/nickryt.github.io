@@ -1,2 +1,1 @@
-# https://nickryt.github.io/
-My Personal Website! 👀
+# https://nickryt.github.io/ My Personal Portfolio Website 👀
