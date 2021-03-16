@@ -1,9 +1,20 @@
 body{
-      background-image: url('background.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
+      background: linear-gradient(-45deg, #32bdfd, #60a0ff, #786ce6, #4597f5);
+      background-size: 400% 400%;
+      animation: gradient 30s ease infinite;
       font-family: Arial;
+}
+  
+@keyframes gradient {
+      0% {
+            background-position: 0% 50%;
+      }
+      50% {
+            background-position: 100% 50%;
+      }
+      100% {
+            background-position: 0% 50%;
+      }
 }
 
 .screen{
