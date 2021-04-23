@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+:root{
+    background: url("background.gif");
+    background-size: 15%;
+    background-repeat: repeat;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.nav{
+    background-color: transparent;
+    position: relative;
+    float: right;
+    margin-right: 1vw;
+}
+
+.links > div{
+    background-color: transparent;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: 3vw;
+    height: 3vw;
+    top: 0;
+    left: 0;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.container{
+    background-color: transparent;
+    position: relative;
+    margin: auto;
+    width: 50vw;
+    height: 80vw;
+    padding-top: 5vw;
+    
+}
+
+.name{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+}
+
+.bio{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.projects-container{
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 2px 5px 2px 5px;
+    border-radius: 20px;
+}
+
+.projects-container-title{
+    background-color: transparent;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.project{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 25px;
+}
+
+.project-title{
+    background-color: transparent;
+    color: white;
+    width: fit-content;
+}
+
+.project-link{
+    background-color: transparent;
+    color: white;
+    width: fit-content;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.project-description{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    height: fit-content;
+}
+
+.technology-pins{
+    background-color: transparent;
+    margin-top: 10px;
+    height: fit-content;
+    display: flex;
+    align-items: center
+}
+
+.pin{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    font-size: 15px;
+    color: rgb(79, 152, 235);
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+}
+
+
+
+/* HOVERS */
+
+i::before{
+    content: none;
+}
+
+a:link, a:visited, a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.project a.p-link:hover{
+    transition: color .5s;
+    color: rgb(79, 152, 235);
+ }
+
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+    display: none;
+}
+  
+body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
