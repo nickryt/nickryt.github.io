@@ -14,8 +14,9 @@
     position: relative;
     margin: auto;
     width: 50vw;
-    height: 73vw;
+    height: fit-content;
     padding-top: 5vw;
+    padding-bottom: 5vw;
 }
 
 .name{
